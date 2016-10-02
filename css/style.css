@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	background-image: url('../img/background.jpg');
+	background-size: 100%;
+	font-size: 10;
+
+}
+
+a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	background-color: #333333;
+}
+
+nav ul {
+	float: right;
+}
+
+nav img {
+    width: 45px;
+    margin: 15px;
+} 
+
+ul li {
+	display: inline-block;
+	margin: 15px;
+}
+
+ul li a {
+	border: 1px solid #f0f0f0;
+	padding: 15px;
+	color: white; 
+	transition: all 0.5s ease;
+}
+
+ul li a:hover {
+	background-color: rgba(200,200,200,0.5);
+	/*font-size: 20px;*/
+}
+
+.poster-wrapper div {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+.poster-wrapper div h2 {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translateY(-50%) translateX(50%);
+	font-size: 25px;
+	color: white;
+	margin: 0;
+	/*width: 100%;*/
+}
+
+.poster-wrapper div img {
+	border:3px solid #f0f0f0;
+	opacity: 0.8;
+}
+
+.poster-wrapper div:hover img{
+	transition: all 0.5s ease;
+	transform: scale(1.1, 1.1);
+	/*position: relative;*/
+	opacity: 1;
+	/*z-index: 2;*/
+	/*zoom:0.8;*/
+}
+
+.form-container {
+	width: 50%;
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-color: rgba(0,0,0,.3);
+	padding: 30px;
+	color: #f0f0f0;
+
+}
+
+.form-container label {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+	width: 100%;
+	font-size: 1.5rem;
+	padding: 5px;
+	border-radius: 5px;
+	border:1px solid #fff;
+}
+
+.form-container button {
+	background-color: #0055FF;
+	color: white;
+	border: none;
+	margin-top: 20px;
+	padding:15px;
+}
+
+table {
+	border-spacing: 0;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 1px solid #555;
+	color: #333;
+}
+
+table th, table td {
+	border: 1px solid #555;
+	padding: 10px;
+	/*border-radius: 5px;*/
+}
+
+table th {
+	font-weight: bold;
+
+}
+
+table td {
+	font-weight: thin;
+}
+
+.purchase {
+	text-align: center;
+}
+
+table tr td button {
+	background-color: #666;
+	color: white;
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
