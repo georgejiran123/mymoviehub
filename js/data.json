@@ -1,0 +1,34 @@
+// {
+// 	"color": "black",
+// 	"size": "100",
+// 	"keyboard": {
+// 		"name": "mac keyboard",
+// 		"size": 100.10,
+// 		"keys": ["a","b","c"]
+// 		"new" false
+// 	}
+// }
+
+[
+
+	{
+		"name": "Gods of Egypt",
+		"date": "sep. 2014",
+		"price": 15	
+
+	},
+
+	{
+		"name": "Crank: High Voltag",
+		"date": "sep. 2015",
+		"price": 10	
+
+	},
+
+	{
+		"name": "The Grey",
+		"date": "sep. 2016",
+		"price": 6	
+
+	},
+]
